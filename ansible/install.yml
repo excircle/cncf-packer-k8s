@@ -1,0 +1,8 @@
+---
+- name: Prepare Image for CNCD Kubernetes
+  hosts: all
+  become: true
+  vars:
+    perform_base_install: true
+  roles:
+    - ansible-cncf-k8s-role

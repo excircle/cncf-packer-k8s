@@ -1,0 +1,3 @@
+---
+- name: ansible-cncf-k8s-role
+  src: https://github.com/excircle/ansible-cncf-k8s-role.git
